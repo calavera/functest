@@ -1,3 +1,3 @@
 exports.handler = function(event, context, callback) {
-  console.log("HI");
+  console.log(env.NODE_VERSION);
 }
